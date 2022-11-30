@@ -6,6 +6,9 @@
 
 ![Custom welcome message](https://i.imgur.com/uzKrzLY.png)
 
+## Introduction
+This build is using [`lib`](https://www.npmjs.com/package/lib), which is an npm package for easily accessing API's listed [here](https://autocode.com/lib/). If you'd like to work on this locally rather than on [Autocode](https://autocode.com/), read [the docs](https://docs.autocode.com/online-ide/can-i-work-locally/)
+
 ## Prerequisites
 You will need:
 - Discord account
