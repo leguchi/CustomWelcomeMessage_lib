@@ -1,0 +1,26 @@
+{
+  "functions/events/discord/guild/member/add.js": {
+    "event": {
+      "user": {
+        "username": "leguchi_jr",
+        "public_flags": 0,
+        "id": "900907298245967932",
+        "discriminator": "3008",
+        "avatar_decoration": null,
+        "avatar": "193abf05b973ce103a6f3ba96c762705"
+      },
+      "roles": [],
+      "premium_since": null,
+      "pending": false,
+      "nick": null,
+      "mute": false,
+      "joined_at": "2022-07-18T16:46:52.658843+00:00",
+      "is_pending": false,
+      "guild_id": "966424785796100096",
+      "flags": 0,
+      "deaf": false,
+      "communication_disabled_until": null,
+      "avatar": null
+    }
+  }
+}

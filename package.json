@@ -1,0 +1,8 @@
+{
+  "name": "new-project",
+  "author": "leguchi",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest"
+  }
+}

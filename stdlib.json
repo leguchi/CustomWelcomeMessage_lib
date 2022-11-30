@@ -1,0 +1,31 @@
+{
+  "name": "leguchi/welcome-message",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/guild/member/add.js": {
+      "name": "discord.guild.member.add"
+    },
+    "functions/events/discord/message/button/interaction/all.js": {
+      "name": "discord.message.button.interaction.all"
+    }
+  },
+  "env": [
+    {
+      "name": "WELCOME_CHANNEL_ID",
+      "description": "The channel ID of the welcome channel."
+    },
+    {
+      "name": "MESSAGES",
+      "description": "The custom random messages you'd like the bot to send. Put as many as you'd like, separating them with a comma AND dollar sign. Ex. Welcome, ,$Hey there, ,$etc"
+    },
+    {
+      "name": "DATE_FORMAT",
+      "description": "Put \"Date\", \"Month\", and \"Year\", separated by commas, in the order you'd like the date to be formatted in. Ex. Month,Date,Year will result in 07/11/2022 "
+    },
+    {
+      "name": "EMOJIS",
+      "description": "The emojis you'd like to have included on the button. Separate them by commas. This will not work with general emojis. Ex. <a:slam:462102312626814987>,<:inspan:348927665861951509>"
+    }
+  ]
+}
